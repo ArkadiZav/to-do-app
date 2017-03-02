@@ -1,0 +1,76 @@
+.container {
+  background-color: #FF7A24;
+}
+
+h2 {
+  font-family: Wicked Mouse;
+}
+
+.header {
+    background-color: #3370F5;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.addBtn {
+  padding: 9px;
+  background: #d9d9d9;
+  color: #555;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+
+.done-true {
+  text-decoration: line-through;
+  color: grey;
+  color: green;
+}
+
+ul {
+    margin-bottom: : 10px;
+    margin-left: 50px;
+    padding: 0;
+    list-style:none;
+}
+
+ul li {
+  /*  cursor: pointer; */
+    padding: 25px 1px 1px 1px;
+    background: #eee;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    list-style:none;
+    font-family: Wicked Mouse;
+}
+
+ul li:nth-child(even) {
+    background: #fff599;
+}
+
+ul li:hover {
+    background: #99a6b2;
+}
+
+ul li:hover:nth-child(even) {
+    background: #ffe81a;
+}
+
+#input {
+  border: 1px solid #FF4000;
+  width: 40%;
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+#input:focus {
+  border: 2px solid black;
+}
